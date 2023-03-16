@@ -9,10 +9,42 @@
     justify-content: space-between;
 }
 
+/*SECCIÓN PRINCIPAL*/
+.principal{
+    background-color: aqua;
+    min-height: 450px;
+    text-align: center;
+}
+
+.sec-principal{
+    padding: 3rem;
+}
+
+.imagen-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.sec-inferior-imagen{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
 /*MEDIA QUERYS*/
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
         align-items: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .sec-inferior-imagen{
+        max-width: 600px;
     }
 }
